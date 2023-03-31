@@ -1,0 +1,27 @@
+.plans-section-background {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.plans-section-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #000000;
+}
+
+.plans-section-title {
+  text-align: center;
+  width: 100%;
+  line-height: 0.8;
+  margin: 40px 0;
+}
+
+.plans-section-title h1 {
+  color: #000000;
+  margin: 20px 0;
+}
+
+.plans-section-title h3 {
+  color: #e72f1d;
+}

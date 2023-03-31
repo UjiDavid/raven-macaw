@@ -1,0 +1,166 @@
+.about-section-background {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.about-section-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #000000;
+}
+
+.about-section-left {
+  width: 60vw;
+  margin-top: 4rem;
+  vertical-align: center;
+}
+.about-subsection-left {
+  width: 60vw;
+  vertical-align: center;
+}
+
+.about-subsection-left .image-box {
+  width: 40vw;
+  position: relative;
+  display: block;
+}
+.about-section-container h1 {
+  color: #e72f1d;
+}
+
+.about-section-container h1,
+h2 {
+  line-height: 0.8;
+}
+
+.about-section-container h4 {
+  color: #e72f1d;
+}
+
+.about-section-container p {
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 16pt;
+  font-weight: 600;
+  background-color: #e72f1d;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #333333;
+  color: #e72f1d;
+  transition: 0.3s;
+}
+
+.about-section-right {
+  margin-top: 20px;
+  width: 50vw;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+}
+
+/* Mission Section */
+.mission-section-background {
+  background-color: #e72f1d;
+  width: 100%;
+}
+
+.mission-section-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+.mission-img {
+  width: 10vw;
+  height: auto;
+}
+
+.mission-section-left {
+  width: 50vw;
+  margin: 20px;
+  text-align: center;
+}
+
+.mission-section-right {
+  text-align: center;
+  margin: 20px;
+  width: 50vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-section-background {
+    padding-top: 10vh;
+  }
+
+  .image-box {
+    right: 0;
+    width: 300px;
+    height: 370px;
+  }
+
+  .about-section-container {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .about-section-container h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .about-section-container {
+    flex-direction: column;
+  }
+
+  .image-box {
+    width: 100%;
+    height: 250px;
+    position: initial;
+  }
+
+  .about-section-container p {
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .about-section-right {
+    position: initial;
+    margin-top: 30px;
+    margin-bottom: -100px;
+    width: 100%;
+  }
+
+  .btn {
+    font-size: smaller;
+  }
+}

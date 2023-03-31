@@ -1,0 +1,95 @@
+.contact-banner-background {
+  background-image: url(../assets/ContactBanner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.contact-banner-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+.contact-section-left {
+  width: 80%;
+  vertical-align: center;
+}
+
+.contact-section-left h1 {
+  color: #e72f1d;
+}
+
+.contact-section-left h1,
+h2 {
+  line-height: 0.8;
+}
+
+.btn {
+  padding: 20px 30px;
+  font-size: 16pt;
+  font-weight: 600;
+  background-color: #e72f1d;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #333333;
+  color: #e72f1d;
+  transition: 0.3s;
+}
+
+.contact-section-right {
+  margin: auto 0;
+  width: 20vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-banner-background {
+    padding-top: 10vh;
+  }
+
+  .contact-banner-container {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .contact-section-left h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .contact-banner-container {
+    flex-direction: column;
+  }
+
+  .contact-section-left p {
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .contact-section-right {
+    position: initial;
+    margin-top: 30px;
+    margin-bottom: -100px;
+    width: 100%;
+  }
+
+  .btn {
+    font-size: smaller;
+  }
+}
