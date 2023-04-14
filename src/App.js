@@ -6,14 +6,14 @@ import About from './routes/About';
 
 function App() {
   return (
-    <>
+    <main className="main">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/plans" element={<Plans />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </>
+    </main>
   );
 }
 

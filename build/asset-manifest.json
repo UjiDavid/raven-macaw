@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c3ed5e98.css",
+    "main.js": "/static/js/main.7c2dfabb.js",
+    "static/media/PrivatePlan.jpg": "/static/media/PrivatePlan.4f429502bb588d2ce95e.jpg",
+    "static/media/OtherPlans.jpg": "/static/media/OtherPlans.cd5fc722a853e3024165.jpg",
+    "static/media/group.jpg": "/static/media/group.35b6ba32312b455a1aa8.jpg",
+    "static/media/AboutImage.jpg": "/static/media/AboutImage.f890d9adda178c43832c.jpg",
+    "static/media/group1.jpg": "/static/media/group1.87f4544b90e34092ae12.jpg",
+    "static/media/familybg.jpg": "/static/media/familybg.fe94b684bcae81849dea.jpg",
+    "static/media/Corporate.jpg": "/static/media/Corporate.d446fffdb537eb8e9c67.jpg",
+    "static/media/ContactBanner.jpg": "/static/media/ContactBanner.81e122b97125a813c1fe.jpg",
+    "static/media/PlanImage.jpg": "/static/media/PlanImage.7eaaebdd67ea74cd15a0.jpg",
+    "static/media/contactBG.jpg": "/static/media/contactBG.21e3004d0d3ee101e276.jpg",
+    "static/media/Vision.png": "/static/media/Vision.244a3024fce633975366.png",
+    "static/media/Mission.png": "/static/media/Mission.84c85611f97f03d65aba.png",
+    "static/media/logo7.png": "/static/media/logo7.c672eddf220a57846df5.png",
+    "static/media/ravenandmacawlogo.png": "/static/media/ravenandmacawlogo.decda0b270477a583e9e.png",
+    "static/media/logo3.png": "/static/media/logo3.d85ca1818d29e53a2be7.png",
+    "static/media/logo8.png": "/static/media/logo8.ab088a2eef32b9ed851e.png",
+    "static/media/logo5.png": "/static/media/logo5.2ffc726adfd61af59633.png",
+    "index.html": "/index.html",
+    "main.c3ed5e98.css.map": "/static/css/main.c3ed5e98.css.map",
+    "main.7c2dfabb.js.map": "/static/js/main.7c2dfabb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ed5e98.css",
+    "static/js/main.7c2dfabb.js"
+  ]
+}

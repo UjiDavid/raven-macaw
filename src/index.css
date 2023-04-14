@@ -1,60 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&family=Markazi+Text:wght@400;500&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Karla', sans-serif;
-  font-size: 16pt;
-  color: #333333;
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ff786c 0.89%,
+    #ff6355 17.23%,
+    #ff5b4c 42.04%,
+    #ff3522 55.12%,
+    #f53b2a 71.54%,
+    #e72f1d 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-input {
-  font-family: 'karla', sans-serif;
-  font-size: 15px;
-  color: #333;
+.hero {
+  background-image: url('./assets/familybg.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
-::placeholder {
-  color: #949494;
-  opacity: 1; /* Firefox */
+.bg-red-gradient {
+  background: linear-gradient(157.81deg, #ff786c -43.27%, #ff6355 -21.24%, #ff5b4c 12.19%, #ff3522 29.82%, #f53b2a 51.94%, #e72f1d 90.29%);
 }
 
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #333333;
+.bg-black-gradient {
+  background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
 }
 
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #333333;
+.bg-black-gradient-2 {
+  background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
 }
 
-h1,
-h2 {
-  font-family: 'Markazi Text', serif;
+.bg-gray-gradient {
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101d 95.11%);
 }
 
-h1 {
-  font-size: 64pt;
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #d4d4d4 0%, #9c9c9c 100%);
 }
 
-h2 {
-  font-size: 40pt;
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-h3 {
-  font-size: 18pt;
+.navbar {
+  border-bottom: 6px solid #e72f1d;
 }
 
-ul {
-  list-style-type: none;
+.footer {
+  border-top: 6px solid #e72f1d;
 }
 
-a {
-  text-decoration: none;
-  color: #333333;
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card {
+  background-color: #edefee;
+}
+
+.feature-card:hover {
+  background: rgba(235, 235, 235, 0.301);
+  box-shadow: 0 4px 12px 0 rgba(252, 16, 16, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.feedback-card {
+  background: rgba(0, 0, 0, 0.596);
+  box-shadow: 0 4px 12px 0 rgba(252, 16, 16, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.clients img {
+  width: 12rem;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
+.clients img:hover {
+  filter: none;
+  transition: 0.7s;
+}
+
+.cta {
+  background-image: url(./assets/ContactBanner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 35vh;
+}
+
+.footer-link:hover {
+  box-shadow: 0 4px 12px 0 rgba(252, 16, 16, 0.37);
+  transform: translateY(3px);
+  transition: 0.3s;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.glassmorphism {
+  background: rgba(235, 235, 235, 0.301);
+  box-shadow: 0 8px 32px 0 rgba(252, 16, 16, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
